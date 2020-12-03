@@ -13,7 +13,7 @@ beforeAll(async () => {
 afterAll(async () => {
   try {
     //try catch here allows us to see the sql parsing issues!
-    // await teardown();
+    await teardown();
   } catch (e) {
     // noop
   }
