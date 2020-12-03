@@ -1,0 +1,65 @@
+{
+  "_from": "@launchql/ext-types@0.1.0",
+  "_id": "@launchql/ext-types@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-tZBxGxiwZMoc0uC51by52n04YcE2R1Xu07DD3LXlD5oaZstgeZ3JWKJ+9p5mljLIuKIHoBTk3TybM0bUh+MnLw==",
+  "_location": "/@launchql/ext-types",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@launchql/ext-types@0.1.0",
+    "name": "@launchql/ext-types",
+    "escapedName": "@launchql%2fext-types",
+    "scope": "@launchql",
+    "rawSpec": "0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "0.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@launchql/ext-types/-/ext-types-0.1.0.tgz",
+  "_shasum": "1ecf3cf99e31352248f086ae1ccc8f7bd047bf62",
+  "_spec": "@launchql/ext-types@0.1.0",
+  "_where": "/private/var/folders/kn/177lldss4n9fwn0gh5q5wfn00000gn/T/ig37ai1tf1f908h54j6w0w",
+  "author": {
+    "name": "Dan Lynch",
+    "email": "pyramation@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "types",
+  "devDependencies": {
+    "@babel/cli": "7.10.4",
+    "@babel/core": "7.10.4",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-proposal-export-default-from": "7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.10.4",
+    "@babel/plugin-transform-runtime": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "@babel/runtime": "^7.4.2",
+    "@launchql/cli": "1.3.5",
+    "@launchql/db-testing": "latest",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "26.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "26.1.0",
+    "prettier": "2.0.5",
+    "regenerator-runtime": "^0.13.2"
+  },
+  "gitHead": "3445405950e15adf8c6910f86591e042cfe28de5",
+  "name": "@launchql/ext-types",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "lql package",
+    "test": "FAST_TEST=1 launchql-templatedb && jest",
+    "test:watch": "FAST_TEST=1 jest --watch"
+  },
+  "version": "0.1.0"
+}
